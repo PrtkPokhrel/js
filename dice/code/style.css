@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 46, 46);
+}
+#head{
+    display: flex;;
+    justify-content: center;
+    margin-top: 7%;
+}
+#heading{
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 7rem;
+}
+#main{
+    display: flex;
+    justify-content: center;
+}
+#s1{
+    margin: 10px;
+    margin-right: 10px;
+}
+#s2{
+    margin: 10px;
+    margin-left: 10px;
+}
+#result{
+    margin-left: 12%;
+    margin-top: 4%;
+}
+#h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+#winner{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

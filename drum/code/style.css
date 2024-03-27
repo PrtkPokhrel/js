@@ -1,0 +1,24 @@
+*{
+    background-color:cadetblue ;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+.btn1{
+    border: 4px solid red;
+    padding: 5%;
+    /* margin: 4%; */
+
+}
+.leter{
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 32px;
+    /* border: 2px solid blue; */
+}

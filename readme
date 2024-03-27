@@ -1,0 +1,37 @@
+in dice there is problem where some of the relation do not show correctly:
+
+Some important code in Js(DOM)(Document Object Mode)
+
+addEventListenert(input1, input2)
+  - input 1: specify what type of event it should react to like "click", "listener"
+  - input 2: what t do after listening the event(generally calls the function) 
+
+Example: element.addEventListener("click" ,function);
+   * can be written like this too
+     - element.addEventListener("click" ,function(){
+         alert("i am clicked");
+        };)  
+ *instead of writing functon name we can directly write the function inside;
+
+
+
+
+*Higher Order Funtion
+
+-calling a function with in the function:
+ -ex:
+    function add(num1,num2){
+      return num1+num2;
+
+     function calculate(num1,num2,operator){
+       return operator(num1,num2);
+      }
+
+
+   //Calling thr function:
+  calculate(2,4,add);
+
+
+instead of calling the add function we caled calculate function which contains three argument 2 for numbers and onw for function 
+so when we call the function calculate(2,2,add) we give number as well as the name of another function where we want to calculate the
+addition. num1 stores 2, vice versa and operator store add string so when we return in the calculate like this return operator(num1,num2) it becames add(2,2).

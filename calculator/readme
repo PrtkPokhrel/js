@@ -1,0 +1,33 @@
+Calcultor using js:
+  contains basic addition,mutiplication, divison,subtraction
+ pure gui
+ responsibe
+   Answer should be no the calculator 
+   C button to clear the terminal
+   
+
+
+
+-------------------------------      
+// I refered this part as terminal just a small word i made for myself
+-------------------------------
+9 8 7  *
+6 5 4  -
+3 2 1  +
+0 . =  /
+
+Id for every number
+innerHtml for terminal
+
+id=click(call using addEventListener("click" ,function())
+
+
+
+
+
+steps:
+
+-design css and for every element add a unique ID;
+-create a function to calculate;
+-add event listener
+-add inner html to terminal
